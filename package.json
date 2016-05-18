@@ -1,0 +1,29 @@
+{
+  "name": "eslint-plugin-sm",
+  "version": "0.0.1",
+  "description": "eslint plugin for sm",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha --R foo tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/molee1905/eslint-plugin-sm.git"
+  },
+  "keywords": [
+    "eslint",
+    "plugin"
+  ],
+  "author": "molee1905",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/molee1905/eslint-plugin-sm/issues"
+  },
+  "homepage": "https://github.com/molee1905/eslint-plugin-sm#readme",
+  "devDependencies": {
+    "eslint": "^2.10.2"
+  }
+}
