@@ -36,7 +36,7 @@ Then configure the rules you want to use under the rules section. For now, the f
 ```json
 {
     "rules": {
-        "newline-after-var-plus": "off",
+        "newline-after-var": "off",
         "sm/newline-after-var": ["error", "always"]
     }
 }
