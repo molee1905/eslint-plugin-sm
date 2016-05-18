@@ -7,13 +7,13 @@ eslint plugin for sm
 You'll first need to install [ESLint](http://eslint.org):
 
 ```
-$ npm i eslint --save-dev
+$ npm i eslint -g
 ```
 
 Next, install `eslint-plugin-sm`:
 
 ```
-$ npm install eslint-plugin-sm --save-dev
+$ npm install eslint-plugin-sm -g
 ```
 
 **Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-sm` globally.
