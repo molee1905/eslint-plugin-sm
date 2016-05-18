@@ -37,7 +37,7 @@ Then configure the rules you want to use under the rules section. For now, the f
 {
     "rules": {
         "newline-after-var-plus": "off",
-        "sm/newline-after-var-plus": ["error", "always"]
+        "sm/newline-after-var": ["error", "always"]
     }
 }
 ```

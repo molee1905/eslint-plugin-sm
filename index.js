@@ -8,5 +8,5 @@
 
 // import all rules in lib/rules
 module.exports.rules = {
-    'newline-after-var-plus': require('./rules/newline-after-var-plus')
+    'newline-after-var': require('./rules/newline-after-var')
 };
