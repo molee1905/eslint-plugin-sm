@@ -10,7 +10,7 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-var rule = require("../rules/newline-after-var-plus"),
+var rule = require("../rules/newline-after-var"),
 
     RuleTester = require("eslint").RuleTester;
 
@@ -31,7 +31,7 @@ var NEVER_ERROR = {
     type: "VariableDeclaration"
 };
 
-ruleTester.run("newline-after-var-plus", rule, {
+ruleTester.run("newline-after-var", rule, {
 
     valid: [
         {code: "var a = 1;\n\nconsole.log(a);", options: ["always"]}
