@@ -173,7 +173,7 @@ module.exports = {
                 context.report({
                     node: node,
                     message: ALWAYS_MESSAGE,
-                    location: lastToken.loc.start,
+                    loc: lastToken.loc.start,
                     fix: function(fixer) {
                         return fixer.insertTextAfter(lastToken, "\n");
                     }

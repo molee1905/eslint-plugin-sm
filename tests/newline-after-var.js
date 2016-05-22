@@ -11,7 +11,6 @@
 //------------------------------------------------------------------------------
 
 var rule = require("../rules/newline-after-var"),
-
     RuleTester = require("eslint").RuleTester;
 
 
