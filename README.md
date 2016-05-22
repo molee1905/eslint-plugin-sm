@@ -42,8 +42,22 @@ Then configure the rules you want to use under the rules section. For now, the f
     }
 }
 ```
+## Example 
 
+with shareable config:  [eslint-config-sm](https://www.npmjs.com/package/eslint-config-sm) and this plugin:
 
+```
+{
+    root: true,
+    "plugins": [
+        "sm"
+    ],
+    "rules": {
+        "sm/no-tabs": "error",
+        "newline-after-var": "off",
+        "sm/newline-after-var": ["error", "always"]
+    },
+    extends: "sm",
+}
 
-
-
+```
