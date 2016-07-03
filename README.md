@@ -57,7 +57,7 @@ with shareable config:  [eslint-config-sm](https://www.npmjs.com/package/eslint-
         "newline-after-var": "off",
         "sm/newline-after-var": ["error", "always"]
     },
-    extends: "sm",
+    extends: "sm"
 }
 
 ```

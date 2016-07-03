@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sm",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "eslint plugin for sm",
   "main": "index.js",
   "directories": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/molee1905/eslint-plugin-sm#readme",
   "devDependencies": {
-    "eslint": "^2.10.2"
+    "eslint": ">=2.10.2"
   },
   "dependencies": {
     "lodash": "^4.12.0"
