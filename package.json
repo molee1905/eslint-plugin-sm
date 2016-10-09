@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sm",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "eslint plugin for sm",
   "main": "index.js",
   "directories": {
@@ -26,8 +26,5 @@
   "devDependencies": {
     "eslint": ">=2.10.2",
     "mocha": "^3.1.0"
-  },
-  "dependencies": {
-    "lodash": "^4.12.0"
   }
 }

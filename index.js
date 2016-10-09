@@ -11,7 +11,7 @@ module.exports = {
 
 	rules: {
 		'no-tabs': require('./rules/no-tabs'),
-		'newline-after-var': require('./rules/newline-after-var')
+		'newline-after-var': require('./rules/newline-after-var'),
 		'no-zepto-ajax': require('./rules/no-zepto-ajax')
 	}
     
