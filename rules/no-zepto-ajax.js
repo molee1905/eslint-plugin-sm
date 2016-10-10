@@ -8,7 +8,7 @@
  * @returns {void}
  */
 function report(context, node, identifierName) {
-    context.report(node, "Unexpected {{name}}.", { name: identifierName });
+    context.report(node, "Disallow the use of $.ajax, Please use sm.ajax");
 }
 
 //------------------------------------------------------------------------------
