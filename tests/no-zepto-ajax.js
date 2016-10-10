@@ -5,10 +5,10 @@
 // Requirements
 //------------------------------------------------------------------------------
 
-const rule = require("../rules/no-zepto-ajax"),
+var rule = require("../rules/no-zepto-ajax"),
     RuleTester = require("eslint").RuleTester;
 
-const ruleTester = new RuleTester();
+var ruleTester = new RuleTester();
 
 ruleTester.run("no-zepto-ajax", rule, {
     valid: [
