@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-sm",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "eslint plugin for sm",
   "main": "index.js",
   "directories": {

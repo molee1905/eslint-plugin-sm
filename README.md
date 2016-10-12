@@ -37,7 +37,6 @@ Then configure the rules you want to use under the rules section. For now, the f
 {
     "rules": {
         "sm/no-tabs": "error",
-        "newline-after-var": "off",
         "sm/newline-after-var": ["error", "always"]
     }
 }
@@ -54,8 +53,8 @@ with shareable config:  [eslint-config-sm](https://www.npmjs.com/package/eslint-
     ],
     "rules": {
         "sm/no-tabs": "error",
-        "newline-after-var": "off",
-        "sm/newline-after-var": ["error", "always"]
+        "sm/newline-after-var": ["error", "always"],
+        "sm/no-zepto-ajax": "error"
     },
     extends: "sm"
 }

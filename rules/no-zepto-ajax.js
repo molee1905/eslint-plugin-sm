@@ -8,7 +8,7 @@
  * @returns {void}
  */
 function report(context, node, identifierName) {
-    context.report(node, "Unexpected {{name}}.", { name: identifierName });
+    context.report(node, "Disallow the use of $.ajax, Please use sm.ajax");
 }
 
 //------------------------------------------------------------------------------
@@ -26,11 +26,11 @@ module.exports = {
         schema: []
     },
 
-    create(context) {
+    create: function (context) {
 
         return {
-            CallExpression(node) {
-                const callee = node.callee;
+            CallExpression: function(node){
+                var callee = node.callee;
 
                 if (callee.type === "MemberExpression" && callee.object.name == '$' && callee.property.name === 'ajax') {
                     report(context, node, callee.property.name );
